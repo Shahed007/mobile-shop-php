@@ -7,6 +7,18 @@ button:focus {
   box-shadow: none !important;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
 /* Typography class */
 .font-baloo {
   font-family: "Baloo Thambi 2", cursive;
@@ -34,6 +46,30 @@ button:focus {
 
 .font-size-20 {
   font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background-color: #003859;
+}
+
+.color-secondary {
+  color: #00a5c4;
+}
+
+.color-secondary-bg {
+  background: #00a5c4;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
 }
 
 /*# sourceMappingURL=style.css.map */
