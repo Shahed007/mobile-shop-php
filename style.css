@@ -19,6 +19,10 @@ a {
   text-decoration: none !important;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Typography class */
 .font-baloo {
   font-family: "Baloo Thambi 2", cursive;
@@ -70,6 +74,10 @@ a {
 
 .color-yellow-bg {
   background: #ffd289;
+}
+
+.object-fit {
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
